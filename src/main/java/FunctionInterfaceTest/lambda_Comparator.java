@@ -11,6 +11,8 @@ import java.util.Comparator;
 public class lambda_Comparator {
     //下面给出 lambda 以及实际替代的内部类写法
 
+
+
     //方法的返回值类型是一个函数式接口
     private static Comparator<String> newComparator(){
         return (a,b)->b.length()-a.length();
