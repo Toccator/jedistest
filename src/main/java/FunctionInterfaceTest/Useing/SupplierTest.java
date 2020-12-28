@@ -12,6 +12,8 @@ public class SupplierTest {
         is(() -> 1);
     }
 
+
+
     private void s(Supplier supplier) {
         System.out.println(supplier.get());
     }

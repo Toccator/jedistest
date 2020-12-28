@@ -12,6 +12,8 @@ public class FunctionTest {
 
     }
 
+
+
     public void f(int i, Function f1, Function f2) {
         System.out.println(f1.compose(f2).apply(i));
 
