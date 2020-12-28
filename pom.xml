@@ -23,13 +23,13 @@
 
 
     <!--    <dependency>-->
-<!--        <groupId>redis.clients</groupId>-->
-<!--        <artifactId>jedis</artifactId>-->
-<!--        <version>3.2.0</version>-->
-<!--    </dependency>-->
-<!--    <dependencies>-->
+    <!--        <groupId>redis.clients</groupId>-->
+    <!--        <artifactId>jedis</artifactId>-->
+    <!--        <version>3.2.0</version>-->
+    <!--    </dependency>-->
+    <!--    <dependencies>-->
 
-<!--    </dependencies>-->
+    <!--    </dependencies>-->
 
     <dependencies>
         <dependency>
@@ -38,11 +38,11 @@
             <version>2.9.0</version><!--版本号可根据实际情况填写-->
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.apache.commons</groupId>-->
-<!--            <artifactId>commons-lang3</artifactId>-->
-<!--            <version>3.3.2</version>!&#45;&#45;版本号可根据实际情况填写&ndash;&gt;-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.commons</groupId>-->
+        <!--            <artifactId>commons-lang3</artifactId>-->
+        <!--            <version>3.3.2</version>!&#45;&#45;版本号可根据实际情况填写&ndash;&gt;-->
+        <!--        </dependency>-->
 
         <dependency>
             <groupId>junit</groupId>
