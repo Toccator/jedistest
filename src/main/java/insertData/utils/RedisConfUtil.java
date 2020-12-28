@@ -1,6 +1,6 @@
 package insertData.utils;
 
-import com.sun.deploy.net.proxy.ProxyUnavailableException;
+
 import jedis.util.ReadProperties;
 import org.springframework.util.StringUtils;
 import redis.clients.jedis.HostAndPort;
