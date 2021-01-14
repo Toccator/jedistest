@@ -12,9 +12,15 @@
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/multiThread/SynchronizedDemo3.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/reflect/ReflectTester.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/Immutable/StringAppendTest.java
+/Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/insertData/CollectorsTest.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/DataStructure/base/Solution.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/BlockingQueue/BlockingQueueTest.java
+/Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/nsertTest/Test2.java
+/Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/PatternInsert/CsvImportMain.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/insertData/utils/RedisPipeline.java
+/Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/nsertTest/Test.java
+/Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/insertData/Person.java
+/Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/PatternInsert/CsvImportVariable.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/util/ReadProperties.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/insertData/utils/RedisManager.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/util/JedisPoolUtile.java
@@ -29,6 +35,7 @@
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/toMapTest/BookList.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/insertData/utils/RedisConfUtil.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/proxy/IUserDao.java
+/Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/PatternInsert/Csvline.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/del/ScanAndClear.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/FunctionInterfaceTest/Test_Functional.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/Immutable/ImmutableObjectTest.java
@@ -37,6 +44,8 @@
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/DataStructure/base/QuickSort.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/StaticString/PrimitiveTypePassingTest.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/reflect/test/Book.java
+/Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/PatternInsert/CsvImportOperation.java
+/Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/nsertTest/Test4.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/reflect/Customer.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/delay/TestMainForDelayQuene.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/proxy/Cglib/App.java
@@ -46,8 +55,10 @@
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/TestLombokVo.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/multiThread/SynchronizedDemo.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/insertData/ImportMain.java
+/Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/PatternInsert/CsvImportConfig.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/insertData/JsonDefinition.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/BlockingQueue/Consumer.java
+/Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/insertData/Json2CSV.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/Immutable/ObjectPassingTest.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/proxy/App.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/FunctionInterfaceTest/Useing/ConsumerTest.java
@@ -59,8 +70,10 @@
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/del/ScanCsvAndDel.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/Cluster.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/FunctionInterfaceTest/lambda_Comparator.java
+/Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/insertData/CSVUtils.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/FunctionInterfaceTest/MyFunctionInterface.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/FunctionInterfaceTest/Useing/SupplierTest.java
+/Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/nsertTest/Test3.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/FunctionInterfaceTest/Useing/Consumer.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/proxy/Cglib/UserDao.java
 /Users/zcy/Desktop/JavaPractice/gitfile/jedistest2/src/main/java/jedis/toMapTest/GroupBrandCateBO.java

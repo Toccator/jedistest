@@ -36,11 +36,12 @@ public class CsvImportMain {
             }
         }
 
-//
+// JSON 解析要导入的文件
         CsvImportConfig csvImportConfig = JSON.parseObject(FileUtils.readFileToString(new File(jsonFile)),CsvImportConfig.class);
         csvImportConfig.setKeyVariable(generateVariable(csvImportConfig.getKey()));
         csvImportConfig.setFieldVariables(generateVariable(csvImportConfig.getField()));
         csvImportConfig.setValueVariable(generateVariable(csvImportConfig.getValue()));
+// CsvImportOperation
 
         CsvImportOperation csvImportOperation = CsvImportOperation.OPERATIONS.get(csvImportConfig.getOperation());
         File file1 = new File(csvPathAndName);
@@ -49,6 +50,7 @@ public class CsvImportMain {
 
         try(BufferedReader br = new BufferedReader(new FileReader(file1))) {
             String headerLine = br.readLine();
+// 定义一个
             Map<String,Integer> headerToIndexMap = processHeaders(headerLine,csvImportConfig);
 
             String line = null;
@@ -72,6 +74,8 @@ public class CsvImportMain {
         }
     }
 
+
+//将${field}替换成 %s
     private static CsvImportVariable generateVariable(String importFields) {
         if(importFields == null){
             return null;
@@ -81,11 +85,18 @@ public class CsvImportMain {
         while (matcher.find()){
             vars.add(matcher.group(1));
         }
-        return CsvImportVariable.builder().formatString(importFields.replaceAll(VAR_STRING,"%s")).fields(vars).build();
+        return CsvImportVariable.builder()
+                .formatString(importFields.replaceAll(VAR_STRING,"%s"))
+                .fields(vars).build();
     }
 
+
+
+
+// 填数，将field 填进去
     private static Csvline convertLine(String line, CsvImportConfig csvImportConfig, Map<String, Integer> headerToIndexMap) {
         String[] contents = line.split(csvImportConfig.getDelimiter());
+        //创建一个map 进行 将每一行的数据headers[i]
         Map<String,String> variables = new HashMap<>(contents.length);
         for(Map.Entry<String, Integer> entry: headerToIndexMap.entrySet()){
             variables.put(entry.getKey(),contents[entry.getValue()]);
@@ -98,6 +109,9 @@ public class CsvImportMain {
 
     }
 
+
+
+//
     private static String contentedVariable(CsvImportVariable csvImportVariable , Map<String, String> variables) {
         if(csvImportVariable == null){
             return null;
@@ -116,8 +130,4 @@ public class CsvImportMain {
         return HeaderToIndexMap;
 
     }
-
-
-
-
 }
