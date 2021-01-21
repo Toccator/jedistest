@@ -1,4 +1,4 @@
-package jedis.toMapTest;
+package DataStructure.base.toMapTest;
 
 import lombok.Builder;
 import lombok.Getter;

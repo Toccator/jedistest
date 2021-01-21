@@ -128,6 +128,5 @@ public class CsvImportMain {
             HeaderToIndexMap.putIfAbsent(headers[i],i);
         }
         return HeaderToIndexMap;
-
     }
 }

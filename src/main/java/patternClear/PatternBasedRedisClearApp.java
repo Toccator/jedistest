@@ -103,8 +103,8 @@ public class PatternBasedRedisClearApp {
         int syncCount = 10000;
         Predicate<String> predicate = PREDICATE_MAP.get("default");
         boolean random = false;
-        String zsetFileName = "/user/etrm/offline_calc/";
-        String hashFileName = "/user/etrm/offline_calc/";
+        String zsetFileName = "/user/zcy/";
+        String hashFileName = "/user/zcy/";
         String model = "default";
         int randomCount=-1;
 

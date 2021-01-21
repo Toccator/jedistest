@@ -14,9 +14,9 @@ public class ArgumentPassing {
 		s1.append("def");
 	}
 	public static void main(String[] args) {
-		int a = 5;        //��������
-		String b = "abc"; //���ɱ����
-		StringBuffer c = new StringBuffer("abc"); //�ɱ����
+		int a = 5;
+		String b = "abc";
+		StringBuffer c = new StringBuffer("abc");
 		changeValue(a);
 		changeValue(b);
 		changeValue(c);

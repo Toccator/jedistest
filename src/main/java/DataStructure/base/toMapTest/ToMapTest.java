@@ -1,4 +1,4 @@
-package jedis.toMapTest;
+package DataStructure.base.toMapTest;
 
 import java.util.*;
 import java.util.stream.Collectors;
