@@ -1,12 +1,17 @@
 //package jedis.reflect.test;
 //
+//import org.slf4j.LoggerFactory;
 //import sun.rmi.runtime.Log;
 //
 //import java.lang.reflect.Constructor;
 //import java.lang.reflect.Field;
 //import java.lang.reflect.Method;
+//import java.util.logging.Logger;
 //
 //public class ReflectClass {
+//
+//    protected static final Logger  logger = (Logger) LoggerFactory.getLogger(ReflectClass.class);
+//
 //    private final static String TAG = "peter.log.ReflectClass";
 //
 //    // 创建对象
@@ -17,7 +22,7 @@
 //            Book book = (Book) objectBook;
 //            book.setName("Android进阶之光");
 //            book.setAuthor("zcy");
-//            Log.d(TAG,"reflectNewInstance book = " + book.toString());
+////            Log.getLog(TAG,"reflectNewInstance book = " + book.toString());
 //        } catch (Exception ex) {
 //            ex.printStackTrace();
 //        }
@@ -31,7 +36,7 @@
 //            declaredConstructorBook.setAccessible(true);
 //            Object objectBook = declaredConstructorBook.newInstance("Android开发艺术探索","任玉刚");
 //            Book book = (Book) objectBook;
-//            Log.d(TAG,"reflectPrivateConstructor book = " + book.toString());
+////            logger.info("reflectPrivateConstructor book = " + book.toString(),TAG);
 //        } catch (Exception ex) {
 //            ex.printStackTrace();
 //        }

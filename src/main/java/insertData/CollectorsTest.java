@@ -11,10 +11,12 @@ import java.util.stream.Stream;
 
 public class CollectorsTest {
     public static void main(String[] args) {
+
         Map<String, Person> map = Stream
                 .of(Person.valueOf("小明", '男', 18), Person.valueOf("小丽", '女', 16), Person.valueOf("小王", '男', 19))
                 .collect(Collectors.toMap(Person::getName, Function.identity()));
         System.out.println("map:" + map);
+
 
         Map<String, Person> map2 = Stream
                 .of(Person.valueOf("小明", '男', 18), Person.valueOf("小丽", '女', 16), Person.valueOf("小明", '男', 19))

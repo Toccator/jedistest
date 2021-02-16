@@ -30,5 +30,10 @@
     <orderEntry type="library" name="Maven: org.xerial.snappy:snappy-java:1.1.7.2" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Maven: net.jcip:jcip-annotations:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-core_2.11:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-sql_2.11:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-hive_2.11:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:2.4.0.cloudera2:1.8.0_121" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:16.0.1" level="project" />
   </component>
 </module>
