@@ -1,5 +1,6 @@
 package offlineV2.util;
 
+import jedis.util.ReadProperties;
 import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.JedisCluster;
 import redis.clients.jedis.JedisPoolConfig;
@@ -15,6 +16,8 @@ public class RedisCluster implements Serializable {
     private static JedisClusterPipeline jcp;
 
     static String[] servers = ReadProperties.getValue("redis.server").split(",");
+
+//    static String[] servers = ReadProperties.getValue("redis.server").split(",");
     static String password = ReadProperties.getValue("redis.server.password");
 
 

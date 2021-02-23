@@ -31,11 +31,11 @@ public abstract class AbstractChannelOfflineCalculation implements IChannelOffli
         List<SparkTempTable> sparkTempTables = getSparkTempTables();
         for(SparkTempTable sparkTempTable :sparkTempTables){
             String[] hdfsPaths = sparkTempTable.getHdfsFilePaths().toArray(new String[0]);
-            Dataset<Row> dataSet = sparkSession.read().option("merSchema","true").parquet(hdfsPaths);
-            dataSet.createGlobalTempView(sparkTempTable.getTableName());
-            if(sparkTempTable.isNeedCache()){
-                dataSet.cache();
-            }
+//            Dataset<Row> dataSet = sparkSession.read().option("merSchema","true").parquet(hdfsPaths);
+//            dataSet.createGlobalTempView(sparkTempTable.getTableName());
+//            if(sparkTempTable.isNeedCache()){
+//                dataSet.cache();
+//            }
             log.warn("创建spark临时表{},路径：{}，是否缓存：{}",sparkTempTable.getTableName(),Arrays.toString(hdfsPaths),Arrays.toString(hdfsPaths),sparkTempTable.isNeedCache());
         }
     }
